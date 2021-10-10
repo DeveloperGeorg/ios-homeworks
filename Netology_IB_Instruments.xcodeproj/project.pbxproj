@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		410B6915271315770080E660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B6914271315770080E660 /* AppDelegate.swift */; };
 		410B6917271315770080E660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B6916271315770080E660 /* SceneDelegate.swift */; };
-		410B6919271315770080E660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B6918271315770080E660 /* ViewController.swift */; };
-		410B691C271315770080E660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410B691A271315770080E660 /* Main.storyboard */; };
 		410B691E271315790080E660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410B691D271315790080E660 /* Assets.xcassets */; };
 		410B6921271315790080E660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410B691F271315790080E660 /* LaunchScreen.storyboard */; };
+		410B692E271327D20080E660 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410B692D271327D20080E660 /* ProfileView.xib */; };
+		410B693127132B4C0080E660 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B693027132B4C0080E660 /* ProfileView.swift */; };
+		410B693427132E230080E660 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410B693327132E230080E660 /* Profile.storyboard */; };
+		410B693727132E5E0080E660 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B693627132E5E0080E660 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		410B6911271315770080E660 /* Netology_IB_Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netology_IB_Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410B6914271315770080E660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		410B6916271315770080E660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		410B6918271315770080E660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		410B691B271315770080E660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		410B691D271315790080E660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410B6920271315790080E660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410B6922271315790080E660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410B692D271327D20080E660 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		410B693027132B4C0080E660 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		410B693327132E230080E660 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		410B693627132E5E0080E660 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				410B6914271315770080E660 /* AppDelegate.swift */,
 				410B6916271315770080E660 /* SceneDelegate.swift */,
-				410B6918271315770080E660 /* ViewController.swift */,
-				410B691A271315770080E660 /* Main.storyboard */,
 				410B691D271315790080E660 /* Assets.xcassets */,
 				410B691F271315790080E660 /* LaunchScreen.storyboard */,
 				410B6922271315790080E660 /* Info.plist */,
+				410B692D271327D20080E660 /* ProfileView.xib */,
+				410B693027132B4C0080E660 /* ProfileView.swift */,
+				410B693327132E230080E660 /* Profile.storyboard */,
+				410B693627132E5E0080E660 /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -124,9 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410B692E271327D20080E660 /* ProfileView.xib in Resources */,
 				410B6921271315790080E660 /* LaunchScreen.storyboard in Resources */,
+				410B693427132E230080E660 /* Profile.storyboard in Resources */,
 				410B691E271315790080E660 /* Assets.xcassets in Resources */,
-				410B691C271315770080E660 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410B6919271315770080E660 /* ViewController.swift in Sources */,
+				410B693127132B4C0080E660 /* ProfileView.swift in Sources */,
+				410B693727132E5E0080E660 /* ProfileViewController.swift in Sources */,
 				410B6915271315770080E660 /* AppDelegate.swift in Sources */,
 				410B6917271315770080E660 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +154,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		410B691A271315770080E660 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410B691B271315770080E660 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		410B691F271315790080E660 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
