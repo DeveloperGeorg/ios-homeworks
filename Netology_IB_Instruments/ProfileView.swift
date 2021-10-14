@@ -22,13 +22,4 @@ class ProfileView: UIView {
         super.draw(rect)
         print(avatarImageView.layoutMargins) 
     }
-    
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
 }
